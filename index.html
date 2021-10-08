@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alquiler de Barcos</title>
+  <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+
+  <!-- ------------HEADER SECTION------------------ -->
+  <header class="header">
+    <h1>ALQUILER DE BARCOS</h1>
+  </header>
+
+  <!-- ----------------MAIN SECTION---------------------- -->
+  <main class="main">
+
+    <!-- FORMS -->
+    <div class="forms">
+
+      <!-- -------BOAT FORM------- -->
+      <h2>Creacion de Barcos</h2>
+      <form class="boat-form each-form">
+        <div class="brand">
+          <label for="brand">Brand</label>
+          <input id="brand" type="text">
+        </div>
+        <div class="model">
+          <label for="model">Model</label>
+          <input id="model" type="text">
+        </div>
+        <div class="category-id">
+          <label for="category-id">Category Id</label>
+          <input id="category-id" type="text">
+        </div>
+        <div class="boat-name">
+          <label for="boat-name">Name</label>
+          <input id="boat-name" type="text">
+        </div>
+      </form>
+
+      <!-- ----------CLIENT FORM---------- -->
+      <h2>Registro de Clientes</h2>
+      <form class="client-form each-form">
+        <div class="client-name">
+          <label for="client-name">Name</label>
+          <input id="client-name" type="text">
+        </div>
+        <div class="email">
+          <label for="email">Email</label>
+          <input id="email" type="text">
+        </div>
+        <div class="age">
+          <label for="age">Age</label>
+          <input id="age" type="text">
+        </div>
+      </form>
+
+      <!-- ------------MESSAGE FORM-------------------- -->
+      <h2>Registro de Mensajes</h2>
+      <form class="message-form each-form">
+        <div class="message">
+          <label for="message">Mensaje</label>
+          <textarea name="" id="message" cols="30" rows="10"></textarea>
+        </div>
+      </form>
+    </div>
+
+    <!-- TABLES -->
+    <div class="tables">
+      <h2>Barcos</h2>
+      <table class="each-table">
+        <tr>
+          <th>BRAND</th>
+          <th>MODEL</th>
+          <th>CATEGORY ID</th>
+          <th>NAME</th>
+        </tr>
+      </table>
+      <h2>Clientes</h2>
+      <table class="each-table">
+        <tr>
+          <th>NAME</th>
+          <th>EMAIL</th>
+          <th>AGE</th>
+        </tr>
+      </table>
+      <h2>Mensajes</h2>
+      <table class="each-table">
+        <tr>
+          <th>MENSAJE</th>
+        </tr>
+      </table>
+    </div>
+  </main>
+</body>
+
+</html>
